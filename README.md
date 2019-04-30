@@ -1,2 +1,2 @@
-# style { destroyer: 0 !important }
+# style destroyer
 scss toolkit for rapid front-end redevelopment
