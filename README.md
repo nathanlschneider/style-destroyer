@@ -1,1 +1,1 @@
-# style-destroyer
+# style { destroyer: 0 !important }
