@@ -3,10 +3,7 @@
   padding: 0 !important;
   border-radius: 0 !important;
 }
-.test {
-  @include reset;
-  @include fluid-type(0px, 1200px, 16px, 22px);
- }
+
 @mixin center {
   display: -webkit-box !important;
   display: -ms-flexbox !important;
