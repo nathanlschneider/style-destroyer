@@ -1,9 +1,31 @@
 @mixin reset {
-  margin: 0 !important;
-  padding: 0 !important;
-  border-radius: 0 !important;
+  margin: 0;
+	padding: 0;
+	border: 0;
+  vertical-align: baseline;
+  line-height: 1;
 }
+ @mixin minmax-width($min, $max) {
+   @if $max == single or $max == double {
+     min-width: $min;
+     max-width: $max;
+   }
+@else {
+  min-width: $min;
+  max-width: $min;
+}
+ }
 
+ @mixin minmax-height($min, $max) {
+  @if $max == single or $max == double {
+    min-height: $min;
+    max-height: $max;
+  }
+@else {
+ min-height: $min;
+ max-height: $min;
+}
+}
 @mixin center {
   display: -webkit-box !important;
   display: -ms-flexbox !important;
