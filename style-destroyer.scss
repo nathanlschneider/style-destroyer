@@ -81,3 +81,11 @@ transform: none !important;
 -ms-animation: none !important;
 animation: none !important;
 }
+@mixin li-seperator {
+  li:after {
+    content: " |";
+  }
+  li:last-child:after {
+    content: "";
+  }
+}
